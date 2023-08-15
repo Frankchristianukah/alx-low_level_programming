@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-  * main - Entry point
-  *
-  * Return: Always 0
+  * main - print_putchar
+  * is written by frank
+  * Return:0
   */
 int main(void)
 {
