@@ -1,21 +1,21 @@
 #include "main.h"
 
 /**
-  * main - print_putchar
-  * is written by frank
-  * Return:0
-  */
+ * main - Print "_putchar" followed by a new line.
+ * Description: You are not allowed to include standard libraries.
+ * Return: 0
+ */
+
 int main(void)
 {
-	_putchar('H');
-	_putchar('o');
-	_putchar('l');
-	_putchar('b');
-	_putchar('e');
-	_putchar('r');
-	_putchar('t');
-	_putchar('o');
-	_putchar('n');
+	char myVar[] = "_putchar";
+	int i = 0;
+
+	while (myVar[i] != '\0')
+	{
+		_putchar(myVar[i]);
+		i++;
+	}
 	_putchar('\n');
 
 	return (0);
